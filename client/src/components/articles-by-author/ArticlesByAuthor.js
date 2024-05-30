@@ -40,7 +40,7 @@ function ArticlesByAuthor() {
                   {article.content.substring(0, 80) + "...."}
                 </p>
                 <button className="custom-btn btn-4" onClick={()=>readArticleByArticleId(article)}>
-                  <span>Read More</span>
+                  <span className="rounded" style={{backgroundColor:"#105769",color:"#ffffff"}}>Read More</span>
                 </button>
               </div>
               <div className="card-footer">

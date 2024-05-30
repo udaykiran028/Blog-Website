@@ -42,7 +42,7 @@ function AddArticle() {
         <div className="col-lg-8 col-md-8 col-sm-10">
           <div className="card shadow">
             <div className="card-title text-center border-bottom">
-              <h2 className="p-3">Write an Article</h2>
+              <h2 className="p-3" style={{color:'var(--crimson)'}}>Write an Article</h2>
             </div>
             <div className="card-body bg-light">
               {/* {err.length!==0&&<p className='text-danger fs-5'>{err}</p>} */}
@@ -86,7 +86,7 @@ function AddArticle() {
                 </div>
 
                 <div className="text-end">
-                  <button type="submit" className="text-light">
+                  <button type="submit" className="text-light rounded" style={{backgroundColor:"#105769",color:"#ffffff"}}>
                     Post
                   </button>
                 </div>

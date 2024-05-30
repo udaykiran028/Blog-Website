@@ -31,7 +31,7 @@ function Header() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="head collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             {loginUserStatus === false ? (
               <>
@@ -40,7 +40,7 @@ function Header() {
                   <NavLink
                     className="nav-link"
                     to=""
-                    style={{ color: "white" }}
+                    style={{ color: "#C9D9EA" }}
                   >
                     Home
                   </NavLink>
@@ -49,7 +49,7 @@ function Header() {
                   <NavLink
                     className="nav-link"
                     to="signup"
-                    style={{ color: "white" }}
+                    style={{ color: "#C9D9EA" }}
                   >
                     SignUp
                   </NavLink>
@@ -58,7 +58,7 @@ function Header() {
                   <NavLink
                     className="nav-link"
                     to="signin"
-                    style={{ color: "white" }}
+                    style={{ color: "#C9D9EA" }}
                   >
                     SignIn
                   </NavLink>

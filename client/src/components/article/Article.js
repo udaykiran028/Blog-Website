@@ -32,6 +32,7 @@ function Article() {
     delete art._id;
     let res=await axiosWithToken.put(`http://localhost:4000/author-api/article/${currentArticle.articleId}`,art)
     if(res.data.message==='article deleted'){
+      navigate('/author-profile/articles-by-author/:author')
       setCurrentArticle({...currentArticle,status:res.data.payload})
     }
   };
@@ -239,7 +240,7 @@ function Article() {
           </div>
 
           <div className="text-end">
-            <button type="submit" className="btn btn-success">
+            <button type="submit" className="btn rounded" style={{backgroundColor:"#105769",color:"#ffffff"}}>
               Save
             </button>
           </div>

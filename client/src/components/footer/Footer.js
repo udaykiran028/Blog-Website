@@ -78,14 +78,14 @@ function Footer() {
               <p className="contact-info mt-4">
                 Contact us if need help withanything
               </p>
-              <p className="contact-info">+91 9999999999</p>
+              <p className="contact-info">+91 9847665557</p>
             </div>
           </div>
         </div>
       </div>
 
       <div className="text-center mt-5">
-        <p className="footer-alt mb-0 f-14">2019 © VNR, All Rights Reserved</p>
+        <p className="footer-alt mb-0 f-14">2022 © VNR, All Rights Reserved</p>
       </div>
     </footer>
   );

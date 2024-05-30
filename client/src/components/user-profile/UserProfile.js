@@ -4,7 +4,7 @@ import { NavLink, Outlet } from "react-router-dom";
 function UserProfile() {
   return (
     <>
-     <NavLink to='articles' className='fs-4 text-primary nav-link mt-4'>Articles</NavLink>
+     <NavLink to='articles' className='fs-4 text-primary nav-link mt-4' ><span style={{color:'#F75637'}}>Articles</span></NavLink>
       <Outlet />
     </>
   );

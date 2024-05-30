@@ -4,7 +4,7 @@ import Footer from "./components/footer/Footer";
 
 function RootLayout() {
   return (
-    <div>
+    <div style={{background:"#BAE3EE"}}>
       <Header />
       <div style={{ minHeight: "70vh" }}>
         <div className="container">
